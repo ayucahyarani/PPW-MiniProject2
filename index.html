@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body class="bg-white text-gray-800 dark:bg-gray-900 dark:text-white transition-all duration-500">
+    <!-- Navbar -->
+    <nav class="bg-gray-800 text-white p-6 text-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <span class="font-bold">My Portfolio</span>
+            <ul class="flex space-x-4 font-bold">
+                <li><a href="#" class="hover:text-blue-300">Home</a></li>
+                <li><a href="#about" class="hover:text-blue-300">About</a></li>
+                <li><a href="#experience" class="hover:text-blue-300">Experience</a></li>
+                <li><a href="#certificates" class="hover:text-blue-300">Certificates</a></li>
+                <li><a href="#contact" class="hover:text-blue-300">Contact</a></li>
+            </ul>
+            <button id="darkModeToggle" class="focus:outline-none">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M12 6v6m0 0v6m0-6h6m-6 0H6">
+                    </path>
+                </svg>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div id="home" class="container mx-auto p-8 flex items-center justify-center">
+        <div>
+            <h1 class="text-3xl font-bold mb-4">Hello!
+                <br>I'm Ayu Cahyarani,
+                <br>a student at Mulawarman
+                <br>University</h1>
+            <div class="mb-4">
+                <p>Connect with me:</p>
+                <ul class="flex space-x-4 mt-2">
+                    <li><a href="https://www.instagram.com/_chyraniayuuu/?hl=en" target="_blank"
+                        class="text-blue-500 hover:text-blue-700">Instagram</a></li>
+                </ul>
+            </div>
+            <a href="#about" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">Read More</a>
+        </div>
+        <img src="img/foto.jpeg" alt="Profile Image" class="profile-image ml-4">
+    </div>
+
+    <!-- About Section -->
+    <div id="about" class="bg-gray-200 py-12">
+        <div class="container mx-auto px-8 flex items-center justify-between">
+            <img src="img/foto.jpeg" alt="Profile Image" class="square-image w-48 h-48 rounded-full object-cover">
+            <div class="w-1/2 ml-8">
+                <h2 class="text-3xl font-bold mb-4 text-gray-800">About Me</h2>
+                <p class="mb-4 text-gray-800">I am an undergraduate student majoring in Information Systems with a main interest
+                    in graphic design. I am passionate and enthusiastic about developing my design skills through
+                    innovative projects. I am also very interested in the administrative field and have a great desire
+                    to work in a startup environment. I have good skills in managing documents, creating schedules, and
+                    handling other administrative tasks efficiently.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Education Section -->
+    <div id="education" class="bg-gray-300 py-12">
+        <div class="container mx-auto px-8">
+            <h2 class="text-3xl font-bold mb-4 text-center text-gray-800">Educations</h2>
+            <div class="space-y-4">
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <p class="text-lg font-semibold mb-2 text-gray-800">2022 - Present</p>
+                    <p class="text-lg font-semibold mb-2 text-gray-800">Universitas Mulawarman (Information System)</p>
+                    <p class="text-gray-700">I am currently studying Information Systems to deepen my understanding of technology and business.</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <p class="text-lg font-semibold mb-2 text-gray-800">2019 - 2022</p>
+                    <p class="text-lg font-semibold mb-2 text-gray-800">SMAN 6 Berau (Natural Sciences Major)</p>
+                    <p class="text-gray-700">I attended high school with a focus on natural sciences to broaden my knowledge and understanding of science.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Experience Section -->
+    <div id="experience" class="bg-gray-300 py-12">
+        <div class="container mx-auto px-8">
+            <h2 class="text-3xl font-bold mb-4 text-center text-gray-800">Experience</h2>
+            <div class="space-y-4">
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <p class="text-lg font-semibold mb-2 text-gray-800">February 2024 - Present</p>
+                    <p class="text-lg font-semibold mb-2 text-gray-800">Secretary of the SIK Department Gamamus Teknik</p>
+                    <p class="text-gray-700">Responsible for media and public relations in the SIK Department
+                        at Gamamus Teknik, which focuses on Islamic social and community outreach.</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <p class="text-lg font-semibold mb-2 text-gray-800">September 2023 - Present</p>
+                    <p class="text-lg font-semibold mb-2 text-gray-800">Head of the Medikrif Division Etos ID Samarinda</p>
+                    <p class="text-gray-700">Oversees creative information media at Etos ID Samarinda, particularly
+                        in the Medikrif Division.</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <p class="text-lg font-semibold mb-2 text-gray-800">August - December 2023</p>
+                    <p class="text-lg font-semibold mb-2 text-gray-800">Islamic Religious Practice Mentor</p>
+                    <p class="text-gray-700">Provides guidance and support in Islamic religious practices.</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <p class="text-lg font-semibold mb-2 text-gray-800">February - December 2023</p>
+                    <p class="text-lg font-semibold mb-2 text-gray-800">Personalia Departement Staff</p>
+                    <p class="text-gray-700">Handles administrative tasks and correspondence within the department.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Certificates Section -->
+    <div id="certificates" class="bg-gray-200 py-12">
+        <div class="container mx-auto px-8">
+            <h2 class="text-3xl font-bold mb-4 text-center text-gray-800">Certificates</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <img src="img/personalia.png" alt="Certificate 1" class="w-full h-auto mb-2">
+                    <p class="text-lg font-semibold mb-2 text-gray-800">Personalia Departement Staff</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <img src="img/insevent.jpg" alt="Certificate 2" class="w-full h-auto mb-2">
+                    <p class="text-lg font-semibold mb-2 text-gray-800">Secretariat Members</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <img src="img/mentor.jpg" alt="Certificate 4" class="w-full h-auto mb-2">
+                    <p class="text-lg font-semibold mb-2 text-gray-800">Mulawarman Madrasah Mentor Certification</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Contact Section -->
+    <div id="contact" class="container mx-auto p-8">
+        <h2 class="text-3xl font-bold mb-4 text-center">Contact Me</h2>
+        <form id="contactForm" class="mb-4">
+            <label for="name" class="block mb-2">Name:</label>
+            <input type="text" id="name" name="name" class="w-full border border-gray-300 rounded-md py-2 px-4"
+                required>
+            <label for="email" class="block mt-4 mb-2">Email:</label>
+            <input type="email" id="email" name="email" class="w-full border border-gray-300 rounded-md py-2 px-4"
+                required>
+            <label for="message" class="block mt-4 mb-2">Message:</label>
+            <textarea id="message" name="message"
+                class="w-full border border-gray-300 rounded-md py-2 px-4 h-32 resize-none" required></textarea>
+            <button type="submit"
+                class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded mt-4">Submit</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
